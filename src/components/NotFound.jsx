@@ -1,5 +1,5 @@
 import React from 'react';
-import NotFoundComponent from './NotFound';
+
 
 const NotFound = () => {
   return (
@@ -11,4 +11,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFoundComponent;
+export default NotFound;
