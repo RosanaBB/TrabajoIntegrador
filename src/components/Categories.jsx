@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import CategoriesComponent from './Categories';
 
 const Categories = () => {
   const [categories, setCategories] = useState([]);
@@ -37,5 +36,5 @@ const Categories = () => {
   );
 };
 
-export default CategoriesComponent;
+export default Categories;
 
