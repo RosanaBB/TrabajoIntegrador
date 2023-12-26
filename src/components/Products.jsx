@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import ProductsComponent from './Products';
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -101,4 +100,4 @@ const Products = () => {
   );
 };
 
-export default ProductsComponent;
+export default Products;
