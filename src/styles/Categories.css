@@ -1,0 +1,29 @@
+.categories-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+.categories-list {
+  list-style: none;
+  padding: 0;
+}
+
+.categories-list li {
+  margin-bottom: 8px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.categories-list li:hover {
+  background-color: #e0e0e0;
+}
