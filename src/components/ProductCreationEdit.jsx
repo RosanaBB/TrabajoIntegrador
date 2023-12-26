@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ProductCreationEditComponent from './ProductCreationEdit';
+
 
 const ProductCreationEdit = ({ match }) => {
   const productId = match.params.productId;
@@ -64,4 +64,4 @@ const ProductCreationEdit = ({ match }) => {
   );
 };
 
-export default ProductCreationEditComponent;
+export default ProductCreationEdit;
