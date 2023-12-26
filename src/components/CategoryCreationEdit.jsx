@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import CategoryCreationEditComponent from './CategoryCreationEdit';
 
 const CategoryCreationEdit = ({ match }) => {
   const categoryId = match.params.categoryId;
@@ -63,4 +62,4 @@ const CategoryCreationEdit = ({ match }) => {
   );
 };
 
-export default CategoryCreationEditComponent;
+export default CategoryCreationEdit;
