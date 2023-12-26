@@ -10,7 +10,7 @@ import {
   Navigate,
   useLocation,
 } from 'react-router-dom';
-import { createRoot } from 'react-dom';
+import { createRoot } from "react-dom/client";
 import AuthContext from './contexts/AuthContext';
 import Login from './components/Login';
 import Register from './components/Register';
