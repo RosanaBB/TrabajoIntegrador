@@ -14,7 +14,7 @@ import { createRoot } from 'react-dom';
 import AuthContext from './contexts/AuthContext';
 import Login from './components/Login';
 import Register from './components/Register';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from './components/Layout';
 import Home from './components/Home';
 import Categories from './components/Categories';
@@ -25,7 +25,7 @@ import ShoppingCart from './components/Cart';
 import NotFound from './components/NotFound';
 import { CartProvider } from './components/CartProvider';
 import AuthContextProvider from './contexts/AuthContext';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/App.css';
 import Cart from './components/Cart';
 

@@ -1,4 +1,3 @@
-import HomeComponent from './Home';
 import React from 'react';
 
 const Home = () => {
@@ -13,4 +12,6 @@ const Home = () => {
   );
 };
 
-export default HomeComponent;
+
+export default Home;
+
